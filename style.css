@@ -1,0 +1,1261 @@
+body {
+  height: 100%;
+  font-family: "andale mono";
+ /* padding: 70px;
+  padding-left: 70px;
+  padding-right: 100px;
+  padding-bottom: 70px;*/
+  margin: 0;
+
+}
+
+p{
+  cursor: default;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+a:hover{
+  color:black;
+}
+
+mark{
+  color: #1DEF32;
+  background-color: red;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.wrapper{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 100%;
+  width:60%;
+/*  padding-right: 100px; */
+}
+
+.item{
+  cursor: pointer;
+/*  padding: 70px; */
+     padding-left: 70px; 
+     padding-right: 100px; 
+     /*padding-bottom: 70px; */
+}
+
+.name{
+    width: 300px;
+    height:20px;
+    font-family: "andale mono";
+    color:black;
+    position: fixed;
+    bottom: 50px;
+    z-index: 20;
+    padding-right: 70px;
+    right:10px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.detail{
+  display: none;
+  width: 525px;
+  height: 500px;
+  top:0px;
+  padding-top: 53px;
+  /*this might need adjusting later*/
+/*  transform: translate(0%, -20%);
+*/right: 0px;
+  padding-right: 70px;
+  overflow: auto;
+  position: fixed;
+  color: white;
+}
+
+
+
+/* KEY */
+/*.one:hover ~ #bg {
+    background: #F4B28C;
+}​*/
+
+.one:hover{
+  color:white;
+}
+
+
+/*.onep {
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    top:50%;
+    this might need adjusting later
+    transform: translate(0%, -20%);
+    right: 50px;
+    overflow: auto;
+    position: fixed;
+    color: white;
+}
+
+.one:hover ~ .onep {
+    display: inline;
+}*/
+
+.one:hover ~ #bg {
+    background: #F4B28C;
+}
+
+
+
+.two:hover{
+  color:white;
+}
+
+/*.twop {
+    display: none;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    top:40%;
+    right: 50px;
+    overflow: auto;
+    position: fixed;
+    color: white;
+}
+
+
+.two:hover ~ .twop {
+    color: white;
+}*/
+
+.two:hover ~ #bg {
+    background: #1DAAE3;
+}​
+
+{}
+
+.three:hover{
+  color:white;
+}
+
+.three:hover ~ #bg {
+    background: #724E36;
+}​
+
+{}
+
+.four:hover{
+  color:white;
+}
+
+.four:hover ~ #bg {
+    background: #4A3144;
+}​
+
+{}
+
+.five:hover{
+  color:white;
+}
+
+.five:hover ~ #bg {
+    background: #4A3144;
+}​
+
+{}
+
+.six:hover{
+  color:white;
+}
+
+.six:hover ~ #bg {
+    background: #4A3144;
+}​
+
+{}
+
+.seven:hover{
+  color:white;
+}
+
+.seven:hover ~ #bg {
+    background: #E6B795;
+}​
+
+{}
+
+.eight:hover{
+  color:white;
+}
+
+.eight:hover ~ #bg {
+    background: #EF967F;
+}​
+
+{}
+
+.nine:hover{
+  color:white;
+}
+
+.nine:hover ~ #bg {
+    background: #F6ACA1;
+}​
+
+{}
+
+.ten:hover{
+  color:white;
+}
+
+.ten:hover ~ #bg {
+    background: #FB454A;
+}​
+
+{}
+
+.ten-one:hover{
+  color:white;
+}
+
+.ten-one:hover ~ #bg {
+    background: #72B879;
+}​
+
+{}
+
+.ten-two:hover{
+  color:white;
+}
+
+.ten-two:hover ~ #bg {
+    background: #AF5952;
+}​
+
+{}
+
+.ten-three:hover{
+  color:white;
+}
+
+.ten-three:hover ~ #bg {
+    background: #DE2E45;
+}​
+
+{}
+
+.ten-four:hover{
+  color:white;
+}
+
+.ten-four:hover ~ #bg {
+    background: #E2526D;
+}​
+
+{}
+
+
+.ten-five:hover{
+  color:white;
+}
+
+
+.ten-five:hover ~ #bg {
+    background: #4A4A4A;
+}​
+
+{}
+
+.ten-six:hover{
+  color:white;
+}
+
+.ten-six:hover ~ #bg {
+    background: #DD754C;
+}​
+
+{}
+
+
+.ten-seven:hover{
+  color:white;
+}
+
+.ten-seven:hover ~ #bg {
+    background: #F7737A;
+}​
+
+{}
+
+.ten-eight:hover{
+  color:white;
+}
+
+.ten-eight:hover ~ #bg {
+    background: #4A4A4A;
+}​
+
+{}
+
+.ten-nine:hover{
+  color:white;
+}
+
+.ten-nine:hover ~ #bg {
+    background: #689B50;
+}​
+
+{}
+
+
+.twenty:hover{
+  color:white;
+}
+
+.twenty:hover ~ #bg {
+    background: #EA222E;
+}​
+
+{}
+
+
+.twenty-one:hover{
+  color:white;
+}
+
+.twenty-one:hover ~ #bg {
+    background: #9B9B9B;
+}​
+
+{}
+
+
+.twenty-two:hover{
+  color:white;
+}
+
+.twenty-two:hover ~ #bg {
+    background: #EBECCA;
+}​
+
+{}
+
+
+.twenty-three:hover{
+  color:white;
+}
+
+.twenty-three:hover ~ #bg {
+    background: #C0E2DE;
+}​
+
+{}
+
+
+.twenty-four:hover{
+  color:white;
+}
+
+.twenty-four:hover ~ #bg {
+    background: #D8E3D9;
+}​
+
+{}
+
+
+.twenty-five:hover{
+  color:white;
+}
+
+.twenty-five:hover ~ #bg {
+    background: #F4DDDE;
+}​
+
+{}
+
+
+.twenty-six:hover{
+  color:white;
+}
+
+.twenty-six:hover ~ #bg {
+    background: #F3D5DD;
+}​
+
+{}
+
+
+.twenty-seven:hover{
+  color:white;
+}
+
+.twenty-seven:hover ~ #bg {
+    background: #EEA0A7;
+}
+
+{}
+
+
+.twenty-eight:hover{
+  color:white;
+}
+
+.twenty-eight:hover ~ #bg {
+    background: #FDD160;
+}​
+
+{}
+
+
+.twenty-nine:hover{
+  color:white;
+}
+
+.twenty-nine:hover ~ #bg {
+    background: #EFC8D5;
+}​
+
+{}
+
+
+.thirty:hover{
+  color:white;
+}
+
+.thirty:hover ~ #bg {
+    background: #38347C;
+}​
+
+{}
+
+
+.thirty-one:hover{
+  color:white;
+}
+
+.thirty-one:hover ~ #bg {
+    background: #D85332;
+}​
+
+{}
+
+
+.thirty-two:hover{
+  color:white;
+}
+
+.thirty-two:hover ~ #bg {
+    background: #E4762A;
+}​
+
+{}
+
+
+.thirty-three:hover{
+  color:white;
+}
+
+.thirty-three:hover ~ #bg {
+    background: #00AB50;
+}​
+
+{}
+
+
+.thirty-four:hover{
+  color:white;
+}
+
+.thirty-four:hover ~ #bg {
+    background: #FC3E78;
+}​
+
+{}
+
+
+.thirty-five:hover{
+  color:white;
+}
+
+.thirty-five:hover ~ #bg {
+    background: #DFC5E3;
+}​
+
+{}
+
+
+.thirty-six:hover{
+  color:white;
+}
+
+.thirty-six:hover ~ #bg {
+    background: #D4B77A;
+}​
+
+{}
+
+
+.thirty-seven:hover{
+  color:white;
+}
+
+.thirty-seven:hover ~ #bg {
+    background: #E7586A;
+}​
+
+{}
+
+
+.thirty-eight:hover{
+  color:white;
+}
+
+.thirty-eight:hover ~ #bg {
+    background: #F5E3E7;
+}​
+
+{}
+
+
+.thirty-nine:hover{
+  color:white;
+}
+
+.thirty-nine:hover ~ #bg {
+    background: #F5E3E7;
+}​
+
+{}
+
+
+.forty:hover{
+  color:white;
+}
+
+.forty:hover ~ #bg {
+    background: #F9DBCE;
+}​
+
+{}
+
+.forty-one:hover{
+  color:white;
+}
+
+.forty-one:hover ~ #bg {
+    background: #9A3D6B;
+}​
+
+{}
+
+.forty-two:hover{
+  color:white;
+}
+
+.forty-two:hover ~ #bg {
+    background: #834E51;
+}​
+
+{}
+
+
+.forty-three:hover{
+  color:white;
+}
+
+.forty-three:hover ~ #bg {
+    background: #C89A85;
+}​
+
+{}
+
+
+.forty-four:hover{
+  color:white;
+}
+
+.forty-four:hover ~ #bg {
+    background: #D62F21;
+}​
+
+{}
+
+
+.forty-five:hover{
+  color:white;
+}
+
+.forty-five:hover ~ #bg {
+    background: #E52F31;
+}​
+
+{}
+
+
+.forty-six:hover{
+  color:white;
+}
+
+.forty-six:hover ~ #bg {
+    background: #E34D36;
+}​
+
+{}
+
+
+.forty-seven:hover{
+  color:white;
+}
+
+.forty-seven:hover ~ #bg {
+    background: #1C944A;
+}​
+
+{}
+
+
+.forty-eight:hover{
+  color:white;
+}
+
+.forty-eight:hover ~ #bg {
+    background: #B5212A;
+}​
+
+{}
+
+
+.forty-nine:hover{
+  color:white;
+}
+
+.forty-nine:hover ~ #bg {
+    background: #B61F1F;
+}​
+
+{}
+
+
+.fifty:hover{
+  color:white;
+}
+
+.fifty:hover ~ #bg {
+    background: #E3D5BB;
+}​
+
+{}
+
+
+.fifty-one:hover{
+  color:white;
+}
+
+.fifty-one:hover ~ #bg {
+    background: #8FC454;
+}​
+
+{}
+
+
+.fifty-two:hover{
+  color:white;
+}
+
+.fifty-two:hover ~ #bg {
+    background: #D2B97C;
+}​
+
+{}
+
+
+.fifty-three:hover{
+  color:white;
+}
+
+.fifty-three:hover ~ #bg {
+    background: #F0EADD;
+}​
+
+
+
+{}
+
+
+.fifty-four:hover{
+  color:white;
+}
+
+.fifty-four:hover ~ #bg {
+    background: #F9EAA0;
+}​
+
+
+
+{}
+
+
+.fifty-five:hover{
+  color:white;
+}
+
+.fifty-five:hover ~ #bg {
+    background: #D89047;
+}​
+
+
+{}
+
+
+.fifty-six:hover{
+  color:white;
+}
+
+.fifty-six:hover ~ #bg {
+    background: #539BC2;
+}​
+
+
+{}
+
+
+.fifty-seven:hover{
+  color:white;
+}
+
+.fifty-seven:hover ~ #bg {
+    background: #D52936;
+}​
+
+
+{}
+
+
+.fifty-eight:hover{
+  color:white;
+}
+
+.fifty-eight:hover ~ #bg {
+    background: #5A59A6;
+}​
+
+
+{}
+
+
+.fifty-nine:hover{
+  color:white;
+}
+
+.fifty-nine:hover ~ #bg {
+    background: #D6232B;
+}​
+
+
+{}
+
+
+.sixty:hover{
+  color:white;
+}
+
+.sixty:hover ~ #bg {
+    background: #F6DA31;
+}​
+
+
+{}
+
+
+.sixty-one:hover{
+  color:white;
+}
+
+.sixty-one:hover ~ #bg {
+    background: #E36A6C;
+}​
+
+{}
+
+
+.sixty-two:hover{
+  color:white;
+}
+
+.sixty-two:hover ~ #bg {
+    background: #A04547;
+}​
+
+{}
+
+
+.sixty-three:hover{
+  color:white;
+}
+
+.sixty-three:hover ~ #bg {
+    background: #5A4B56;
+}​
+
+{}
+
+
+.sixty-four:hover{
+  color:white;
+}
+
+.sixty-four:hover ~ #bg {
+    background: #5C30C6;
+}​
+
+{}
+
+
+.sixty-five:hover{
+  color:white;
+}
+
+.sixty-five:hover ~ #bg {
+    background: #1F703F;
+}​
+
+{}
+
+
+.sixty-six:hover{
+  color:white;
+}
+
+.sixty-six:hover ~ #bg {
+    background: #ECE435;
+}​
+
+{}
+
+
+.sixty-seven:hover{
+  color:white;
+}
+
+.sixty-seven:hover ~ #bg {
+    background: #C7E66A;
+}​
+
+{}
+
+
+.sixty-eight:hover{
+  color:white;
+}
+
+.sixty-eight:hover ~ #bg {
+    background: #FFD33B;
+}​
+
+{}
+
+
+.sixty-nine:hover{
+  color:white;
+}
+
+.sixty-nine:hover ~ #bg {
+    background: #F8A328;
+}​
+
+{}
+
+
+.seventy:hover{
+  color:white;
+}
+
+.seventy:hover ~ #bg {
+    background: #A96BD9;
+}​
+
+
+{}
+
+
+.seventy-one:hover{
+  color:white;
+}
+
+.seventy-one:hover ~ #bg {
+    background: #5DC627;
+}
+
+{}
+
+
+.seventy-two:hover{
+  color:white;
+}
+
+.seventy-two:hover ~ #bg {
+    background: #7CBE43;
+}​
+
+
+{}
+
+
+.seventy-three:hover{
+  color:white;
+}
+
+.seventy-three:hover ~ #bg {
+    background: #EDA7B7;
+}​
+
+
+{}
+
+
+.seventy-four:hover{
+  color:white;
+}
+
+.seventy-four:hover ~ #bg {
+    background: #D32433;
+}​
+
+
+{}
+
+
+.seventy-five:hover{
+  color:white;
+}
+
+.seventy-five:hover ~ #bg {
+    background: #1F703F;
+}​
+
+
+{}
+
+
+.seventy-six:hover{
+  color:white;
+}
+
+.seventy-six:hover ~ #bg {
+    background: #9E2D1A;
+}​
+
+
+{}
+
+
+.seventy-seven:hover{
+  color:white;
+}
+
+.seventy-seven:hover ~ #bg {
+    background: #2B5A96;
+}​
+
+
+{}
+
+
+.seventy-eight:hover{
+  color:white;
+}
+
+.seventy-eight:hover ~ #bg {
+    background: #E80C16;
+}​
+
+
+{}
+
+
+.seventy-nine:hover{
+  color:white;
+}
+
+.seventy-nine:hover ~ #bg {
+    background: #5A8D4A;
+}​
+
+
+{}
+
+
+.eighty:hover{
+  color:white;
+}
+
+.eighty:hover ~ #bg {
+    background: #FF55A4;
+}​
+
+
+
+{}
+
+
+.eighty-one:hover{
+  color:white;
+}
+
+.eighty-one:hover ~ #bg {
+    background: #2B6EAB;
+}​
+
+
+
+{}
+
+
+.eighty-two:hover{
+  color:white;
+}
+
+.eighty-two:hover ~ #bg {
+    background: #EAA7C3;
+}​
+
+
+
+{}
+
+
+.eighty-three:hover{
+  color:white;
+}
+
+.eighty-three:hover ~ #bg {
+    background: #B85D51;
+}​
+
+
+
+{}
+
+
+.eighty-four:hover{
+  color:white;
+}
+
+.eighty-four:hover ~ #bg {
+    background: #E1421F;
+}​
+
+
+
+{}
+
+
+.eighty-five:hover{
+  color:white;
+}
+
+.eighty-five:hover ~ #bg {
+    background: #AFBB28;
+}​
+
+
+
+{}
+
+
+.eighty-six:hover{
+  color:white;
+}
+
+.eighty-six:hover ~ #bg {
+    background: #2BF9FE;
+}​
+
+
+
+{}
+
+
+.eighty-seven:hover{
+  color:white;
+}
+
+.eighty-seven:hover ~ #bg {
+    background: #CC868C;
+}​
+
+
+
+{}
+
+
+.eighty-eight:hover{
+  color:white;
+}
+
+.eighty-eight:hover ~ #bg {
+    background: #D6969B;
+}​
+
+
+
+{}
+
+
+.eighty-nine:hover{
+  color:white;
+}
+
+.eighty-nine:hover ~ #bg {
+    background: #19A0CF;
+}​
+
+
+
+{}
+
+
+.ninety:hover{
+  color:white;
+}
+
+.ninety:hover ~ #bg {
+    background: #6CB9C1;
+}​
+
+
+
+{}
+
+
+.ninety-one:hover{
+  color:white;
+}
+
+.ninety-one:hover ~ #bg {
+    background: #B06658;
+}​
+
+
+{}
+
+
+.ninety-two:hover{
+  color:white;
+}
+
+.ninety-two:hover ~ #bg {
+    background: #71AEBE;
+}​
+
+
+{}
+
+
+.ninety-three:hover{
+  color:white;
+}
+
+.ninety-three:hover ~ #bg {
+    background: #BFD5F0;
+}​
+
+
+{}
+
+
+.ninety-four:hover{
+  color:white;
+}
+
+.ninety-four:hover ~ #bg {
+    background: #90242E;
+}​
+
+
+{}
+
+
+.ninety-five:hover{
+  color:white;
+}
+
+.ninety-five:hover ~ #bg {
+    background: #87ADA8;
+}​
+
+
+{}
+
+
+.ninety-six:hover{
+  color:white;
+}
+
+.ninety-six:hover ~ #bg {
+    background: #C88F82;
+}​
+
+
+{}
+
+
+.ninety-seven:hover{
+  color:white;
+}
+
+.ninety-seven:hover ~ #bg {
+    background: #FA0E1C;
+}​
+
+
+{}
+
+
+.ninety-eight:hover{
+  color:white;
+}
+
+.ninety-eight:hover ~ #bg {
+    background: #A70814;
+}​
+
+
+{}
+
+
+.ninety-nine:hover{
+  color:white;
+}
+
+.ninety-nine:hover ~ #bg {
+    background: #FE9B93;
+}​
+
+
+{}
+
+
+.hundred:hover{
+  color:white;
+}
+
+.hundred:hover ~ #bg {
+    background: #006041;
+}​

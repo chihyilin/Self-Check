@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - TOXIC | Self Check Of My Daily Product</title>
+  <script src="jquery-3.2.0.min.js"></script>
+  <script src="init.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<!--   <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css"> -->
+
+
+<style> 
+  body{
+    padding-top: 300px;
+    padding-left: 270px;
+    padding-right: 270px;
+    text-align: left;
+
+  }
+
+  a:hover{
+    color:red;
+  }
+
+  a{
+    color: black;
+  }
+
+/*  .shake-horizontal { 
+  @include do-shake('shake-crazy', 40, 40, 20, 100ms, .1, $opacity: true); 
+}*/
+
+/*.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}*/
+
+  </style>
+</head>
+
+
+<body>
+<div class="name">&copy; Chih-Yi Lin</div>
+<!--   <div class="shake-horizontal"> -->
+<a href="list.html"><div class="hi">
+  <!-- <a href="index.html"><ul>When foods are processed, not only are valuable nutrients lost and fibers removed, but the textures and natural variation and flavors are also lost.
+ <br>
+ <br>
+  The average person use 10 different skin care products on his or her body every day, and since our skin acts more like a sponge than a barrier, we absorb the nearly 130 chemicals we regularly expose ourselves to.</ul></a> -->
+  </div></a>
+<!--   </div> -->
+
+<script src="typed.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+      Typed.new('.hi', {
+        strings: ["When foods are processed, not only are valuable nutrients lost and fibers removed, but the textures and natural variation and flavors are also lost. The average person use 10 different skin care products on his or her body every day, and since our skin acts more like a sponge than a barrier, we absorb the nearly 130 chemicals we regularly expose ourselves to.            "],
+        typeSpeed: 0.9,
+        callback: function(){
+          console.log('Done!');
+
+          window.location.href = "list.html";
+        }
+      });
+  });
+</script>
+
+
+</body>
+</html>
+
+
+
